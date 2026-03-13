@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.form-background {
+    background: url("../img/background.svg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.form-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 30px 30px;
+}
+
+.form-title {
+    font-size: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.form-elements {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.form-elements > label {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+.form-elements > div {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+label > span,
+div > span {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+input {
+    border: none;
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid #87ceeb;
+    border-radius: 20px;
+}
+
+.gender-wrapper {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.gender-wrapper > input + input {
+    margin-left: 80px;
+}
+
+desc {
+    font-style: italic;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.com-wrapper {
+    font-size: 15px;
+    margin-left: 20px;
+}
+.com-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar-img {
+    width: 35%;
+    height: 60%;
+    border-radius: 50%;
+}

@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Register</title>
+        <link rel="stylesheet" href="./css/form.css" />
+    </head>
+    <body>
+        <div class="form-background">
+            <div class="form-container">
+                <div class="form-title">Register</div>
+                <form action="" autocomplete="off" spellcheck="false">
+                    <div class="form-elements">
+                        <label>
+                            <span>Display Name</span>
+                            <input
+                                type="text"
+                                placeholder="Tên hiển thị của bạn trên trang (có thể là biệt danh, tên thật, v.v.)"
+                            />
+                        </label>
+                        <label>
+                            <span>Email</span>
+                            <input
+                                type="email"
+                                placeholder="Địa chỉ email dùng để đăng nhập và nhận thông báo"
+                            />
+                        </label>
+                    </div>
+                    <div class="form-elements">
+                        <label>
+                            <span>Phone Number</span>
+                            <input
+                                type="tel"
+                                placeholder="Số điện thoại để liên hệ hoặc xác minh tài khoản"
+                            />
+                        </label>
+                        <div>
+                            <span>Gender</span>
+                            <div class="gender-wrapper">
+                                <input
+                                    type="radio"
+                                    name="gender"
+                                    value="Male"
+                                />
+                                Male
+                                <input
+                                    type="radio"
+                                    name="gender"
+                                    value="Female"
+                                />
+                                Female
+                                <input
+                                    type="radio"
+                                    name="gender"
+                                    value="Other"
+                                />
+                                Other
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-elements">
+                        <label>
+                            <span>Password</span>
+                            <input
+                                type="password"
+                                placeholder="Mật khẩu bảo vệ tài khoản, nên đủ mạnh"
+                            />
+                        </label>
+                        <label>
+                            <span>Confirm Password</span>
+                            <input
+                                type="password"
+                                placeholder="Nhập lại mật khẩu ở trên để xác nhận"
+                            />
+                        </label>
+                    </div>
+                    <div class="form-elements">
+                        <label>
+                            <span>Date of Birth</span>
+                            <input
+                                type="date"
+                                placeholder="Ngày tháng năm sinh – định dạng tùy quốc gia (ví dụ: YYYY-MM-DD)"
+                            />
+                        </label>
+                        <label>
+                            <span>Address</span>
+                            <input
+                                type="text"
+                                placeholder="Địa chỉ hiện tại (có thể đơn giản như tỉnh/thành phố)"
+                            />
+                        </label>
+                    </div>
+                    <div class="form-elements">
+                        <div class="nothing">
+                            <span>Communication Preferences</span>
+                            <desc>Chọn loại email bạn muốn nhận: </desc>
+                            <div class="com-wrapper">
+                                <div class="com-elements">
+                                    <label>
+                                        <input
+                                            type="checkbox"
+                                            name="com1"
+                                            value="1"
+                                        />
+                                        Subscribe to Newsletter (Nhận bản tin
+                                        định kỳ)
+                                    </label>
+                                </div>
+                                <div class="com-elements">
+                                    <label>
+                                        <input
+                                            type="checkbox"
+                                            name="com2"
+                                            value="2"
+                                        />
+                                        Receive Promotional Emails (Nhận thông
+                                        tin khuyến mãi)
+                                    </label>
+                                </div>
+                                <div class="com-elements">
+                                    <label>
+                                        <input
+                                            type="checkbox"
+                                            name="com3"
+                                            value="3"
+                                        />
+                                        Get Product Updates (Nhận cập nhật sản
+                                        phẩm mới)
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <label>
+                            <span>Profile Picture (Avatar)</span>
+                            <input type="file" accept="image/*" hidden />
+                            <img
+                                class="avatar-img"
+                                src="./img/avatar-placeholder.png"
+                                alt=""
+                            />
+                        </label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

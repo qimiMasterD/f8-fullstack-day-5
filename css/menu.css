@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    background-color: #4054d1;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+}
+
+.sub {
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+    font-weight: 600;
+}
